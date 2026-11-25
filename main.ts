@@ -1,9 +1,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The battery's last text to its charger — the cheating-affair angle:
-// the charger kept "optimizing" all day while the battery waited at 1%,
-// so the battery is now seeing a power bank behind the charger's back.
+// The battery's last text to its charger — the cheating-affair angle.
+// The charger spent all day "optimizing" instead of charging, so the
+// battery waited at 1% and is now seeing a power bank behind its back:
+// a spiteful breakup text from a battery with nothing left to lose.
 const LINE =
   "I'm at 1% while you 'optimize charging' — enjoy the outlet, I'm seeing a power bank behind your back.";
 
